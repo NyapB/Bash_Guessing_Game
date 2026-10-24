@@ -3,8 +3,8 @@
 #this is a guessing game
 
 name="$1"
-if [[ -z "name" ]];then  
-    echo "usage: ./intro.sh <name>\n where name is the name of the user playing the game"
+if [[ -z "$name" ]];then  
+    printf "usage: ./intro.sh <name>\n where name is the name of the user playing the game"
     exit 1
 fi
 
