@@ -16,7 +16,7 @@ bash
 
 ## 📷 Screenshots
 
-![bash script](<images/Screenshot From 2026-10-24 09-18-08.png>)
+![Bash Script](<assets/images/Screenshot From 2026-10-24 09-18-08.png>)
 
 ## ⚙ Installation & Setup
 
