@@ -20,8 +20,8 @@ count=0
 
 
 
-while (( guess != number) ); do
-    read -p "Please guess a number between 0 and 100: " guess
+while (( guess != number )); do
+    read -r -p "Please guess a number between 0 and 100: " guess
 
     if [[ -z "$guess" ]]; then
         echo "Please enter a number: "
