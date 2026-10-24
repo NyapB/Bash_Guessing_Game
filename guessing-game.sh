@@ -20,15 +20,15 @@ count=0
 
 
 
-while (( $guess != number)); do
+while (( guess != number) ); do
     read -p "Please guess a number between 0 and 100: " guess
 
     if [[ -z "$guess" ]]; then
         echo "Please enter a number: "
         exit 1;
-    elif (( $guess > $number)); then
+    elif (( guess > number)); then
         echo "Your guess is higher than the number"
-    elif (( $guess < $number )); then
+    elif (( guess < number )); then
         echo "Your guess is lower than the number"   
     fi
     ((count++))
